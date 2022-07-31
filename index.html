@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="weather">
+    <span class="weather_weather"></span>
+    <span class="weather_city"></span>
+  </div>
+  <form id="login-form">
+    <input class="login-form_input" required maxlength="15" type="text" placeholder="What is your name?" />
+    <input class="login-form_login-btn" type="submit" value="Log in" />
+  </form>
+  <h2 id="clock">00:00:00</h2>
+  <h1 id="greeting" class="hidden"></h1>
+  <div class="todo-box">
+    <form id="todo-form">
+      <input required type="text" placeholder="Write a To Do and Press Enter" />
+    </form>
+    <ul id="todo-list"></ul>
+  </div>
+  <div id="quote">
+    <span></span>
+    <span></span>
+  </div>
+
+  <script src="js/greeting.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="https://kit.fontawesome.com/5fb3311106.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
